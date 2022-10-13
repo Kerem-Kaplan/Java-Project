@@ -1,0 +1,9 @@
+package kodlamaio.northwind.dataAccess.abstracts;
+
+import org.springframework.data.jpa.repository.support.JpaRepositoryImplementation;
+
+import kodlamaio.northwind.entities.concretes.Product;
+
+public interface ProductDao extends JpaRepositoryImplementation<Product, Integer> {
+
+}
